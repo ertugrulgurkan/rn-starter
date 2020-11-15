@@ -2,16 +2,18 @@ import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import HomeScreen from "./src/screens/HomeScreen";
 import ComponentsScreen from "./src/screens/ComponentsScreen";
-import Exersize from "./src/screens/ExersiceComponent"
+import ExersizeScreen from "./src/screens/ExersiceScreen";
+import ListScreen from "./src/screens/ListScreen";
 
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
     Components: ComponentsScreen,
-    Exersize: Exersize
+    Exersize: ExersizeScreen,
+    List: ListScreen
   },
   {
-    initialRouteName: "Exersize",
+    initialRouteName: "List",
     defaultNavigationOptions: {
       title: "My App"
     }

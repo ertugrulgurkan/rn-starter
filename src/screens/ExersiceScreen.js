@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import { Text, StyleSheet } from 'react-native';
 
-const ComponentsScreen = () => {
+const ExersiceScreen = () => {
     const myName = "Ertuğrul";
 
     return (<View>
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default ComponentsScreen;
+export default ExersiceScreen;
