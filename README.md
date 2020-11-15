@@ -1,2 +1,2 @@
 # rn-starter
-React Native Starter Repo for Exersize
+React Native Starter Repo for Exercise
