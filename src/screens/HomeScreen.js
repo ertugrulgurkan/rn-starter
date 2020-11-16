@@ -24,6 +24,10 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('Image')}
         title="Go to ImageScreen Demo"
       />
+      <Button
+        onPress={() => navigation.navigate('Counter')}
+        title="Go to Counter Exersize Demo"
+      />
     </View>
   );
 };
