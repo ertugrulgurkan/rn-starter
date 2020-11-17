@@ -1,2 +1,2 @@
-# rn-casts
-React Native Repo
+# rn-starter
+React Native Starter Repo for Exercise
