@@ -1,6 +1,5 @@
 import React, { useReducer } from 'react';
 import { View, StyleSheet } from 'react-native';
-import { step0 } from 'react-native/Libraries/Animated/src/Easing';
 import ColorCounter from '../components/ColorCounter';
 
 const COLOR_INCREMENT = 15;
