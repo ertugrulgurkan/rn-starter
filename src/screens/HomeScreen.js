@@ -10,35 +10,39 @@ const HomeScreen = ({ navigation }) => {
       </Text>
       <Button
         onPress={() => navigation.navigate('Components')}
-        title="Go to Components Demo"
+        title="Components Demo"
       />
       <Button
         onPress={() => navigation.navigate('Exersize')}
-        title="Go to Exersise Demo"
+        title="Exersise Demo"
       />
       <Button
         onPress={() => navigation.navigate('List')}
-        title="Go to List Demo"
+        title="List Demo"
       />
       <Button
         onPress={() => navigation.navigate('Image')}
-        title="Go to ImageScreen Demo"
+        title="ImageScreen Demo"
       />
       <Button
         onPress={() => navigation.navigate('Counter')}
-        title="Go to Counter Exersize Demo"
+        title="Counter Exersize Demo"
       />
       <Button
         onPress={() => navigation.navigate('Color')}
-        title="Go to Color Exersize Demo"
+        title="Color Exersize Demo"
       />
       <Button
         onPress={() => navigation.navigate('Square')}
-        title="Go to Square Screen Demo"
+        title="Square Screen Demo"
       />
-            <Button
+      <Button
         onPress={() => navigation.navigate('Text')}
-        title="Go to Square Text Screen Demo"
+        title="Text Screen Demo"
+      />
+      <Button
+        onPress={() => navigation.navigate('Box')}
+        title="Box Screen Demo"
       />
     </View>
   );
